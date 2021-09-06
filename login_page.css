@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif sans-serif;
+}
+.background
+{
+    margin: 0% auto;
+    background-color:#f5f3f5f6;
+    width: 50%;
+    height: 600px;
+        
+}
+h1{
+    color: rgba(255, 20, 79, 0.89);
+    font-style: italic;
+    padding-left: 15%;
+    
+    
+}
+.center
+{
+    padding:  10%;
+    padding-left: 32%;
+}
+#user
+{
+    background-color: white;
+    width: 240px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 30%;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+#user > i
+{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+#user > input
+{
+    margin-top: 8px;
+    padding-left: 4px;
+    border: none;
+    outline: none;
+
+}
+#pass
+{
+    background-color: white;
+    width: 240px;
+    height: 35px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5%;
+    border-radius: 10px;
+    
+}
+#pass > i
+{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+#pass > input
+{
+    margin-top: 8px;
+    padding-left: 4px;
+    border: none;
+    outline: none;
+
+}
+.button
+{
+    margin-top: 35%;
+}
+#b1
+{
+    background-color: rgb(255, 102, 0);
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#b1:hover
+{
+    background-color: dodgerblue;
+    color: rgba(0, 0, 0, 0.911);
+}
+#b2
+{
+    background-color: rgba(25, 0, 255, 0.808);
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#b2:hover
+{
+    background-color: chartreuse;
+    color: rgba(0, 0, 0, 0.911);
+}
+p
+{
+    margin: 2%;
+    padding-left: 10px;
+}
+#p1
+{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+#b3
+{
+    margin-left: 35%;
+    width: 240px;
+    height: 30px;
+    border-radius: 7px;
+    border-color: lavenderblush;
+    font-size: 18px;
+}
+#b3:hover
+{
+    background-color: lightseagreen;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<htm>
+    <head>
+        <title></title>
+        <script src="https://kit.fontawesome.com/0b0a5cbf6e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="login_page.css">
+        <script>
+            function login()
+            {
+               var a= document.getElementById("u1").value="";
+               var b=document.getElementById("pa1").value="";
+                
+            }
+            login();
+        </script>
+    </head>
+    <body>
+        <div class="background">
+            <div class="center">
+                <h1>Instagram</h1>
+                <div id="user">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <input type="text" placeholder="username " id="u1"><br>
+                </div>
+                <div id="pass">
+                    <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                    <input type="password" placeholder="Password" id="pa1">
+                </div>
+                <div class="button">
+                    <input  type="button" value="Login" id="b1" onclick="login()"><br>
+                    <input type="button" value="Login With Facebook" id="b2">
+                </div>
+                <p>Forgot Login detail?</p>
+            </div>
+            <p id="p1">Don't have account?</p>
+            <a href="login_page2.html" target="_self"><input type="button" value="Sign up" id="b3"></a>
+        </div>
+    </body>
+
+</htm>
